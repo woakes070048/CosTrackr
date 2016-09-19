@@ -1,0 +1,5 @@
+Template.getStarted.events({
+	' ': function() {
+		
+	}
+});

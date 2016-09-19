@@ -1,0 +1,10 @@
+<template name="appLayout">
+	{{> appHeader}}
+	{{> appNav}}
+	<main>
+		{{> Template.dynamic template=main}}
+	</main>
+	<section>
+		{{> Template.dynamic template="section"}}
+	</section>
+</template>
